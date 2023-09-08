@@ -71,7 +71,9 @@ a{  text-decoration: none;
 
 a:hover{background-color: var(---cor2);}
 
-@media (max-width: 1366px){
+@media (max-width: 773px){
+
+h2{padding: 50% 50% 0px 17%;}
 
 }
 
@@ -83,7 +85,7 @@ div{min-width: 100vw;
 h2{padding: 25% 50% 0px 17%;}
  
 input{padding: 4px 0px 0px 0px;}
-
+a{padding: 15px 8px 11px 8px}
 }
 
 @media (max-height: 300px)
@@ -91,6 +93,7 @@ input{padding: 4px 0px 0px 0px;}
 
 h2{padding: 10% 50% 0px 17%;}
 input{padding: 4px 0px 0px 0px;}
+a{padding: 15px 8px 11px 8px}
 }
 
 
