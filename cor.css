@@ -69,7 +69,8 @@ a{  text-decoration: none;
     background-color: var(---cor3);
     color: black;}
 
-a:hover{background-color: var(---cor2);}
+a:hover{transition: 1s;
+    background-color: var(---cor2);}
 
 @media (max-width: 773px){
 
