@@ -11,6 +11,7 @@
     ---font1:font-family: 'Open Sans', sans-serif;
 }
 
+
 body{ margin: 0;
     display: flex;
     background: url('Pontos/monaco.jpg') no-repeat fixed ;
@@ -80,6 +81,8 @@ a:hover{background-color: var(---cor2);}
 div{min-width: 100vw;
     min-height: 12vh;}
 h2{padding: 25% 50% 0px 17%;}
+ 
+input{padding: 4px 0px 0px 0px;}
 
 }
 
@@ -87,6 +90,7 @@ h2{padding: 25% 50% 0px 17%;}
 {
 
 h2{padding: 10% 50% 0px 17%;}
+input{padding: 4px 0px 0px 0px;}
 }
 
 
