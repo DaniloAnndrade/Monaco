@@ -1,16 +1,11 @@
 @charset "UTF-8";
-
-
-
 :root{
-
     ---cor1:#0C2333;
     ---cor2:#725746;
     ---cor3:#DFE3E6;
 
     ---font1:font-family: 'Open Sans', sans-serif;
 }
-
 
 body{ margin: 0;
     display: flex;
@@ -72,29 +67,26 @@ a{  text-decoration: none;
 a:hover{transition: 1s;
     background-color: var(---cor2);}
 
-@media (max-width: 773px){
+/*Tamanhos de Tela*/
 
+@media (max-width: 773px){
 h2{padding: 50% 50% 0px 17%;}
 
 }
-
-@media (max-width: 630px)
-
-{
+@media (max-width: 630px){
 div{min-width: 100vw;
     min-height: 12vh;}
-h2{padding: 25% 50% 0px 17%;}
- 
+h2{padding: 25% 50% 0px 17%;} 
 input{padding: 4px 0px 0px 0px;}
 a{padding: 15px 8px 11px 8px}
+
 }
 
-@media (max-height: 300px)
-{
-
+@media (max-height: 300px){
 h2{padding: 10% 50% 0px 17%;}
 input{padding: 4px 0px 0px 0px;}
 a{padding: 15px 8px 11px 8px}
+
 }
 
 
