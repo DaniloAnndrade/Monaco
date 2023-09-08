@@ -62,12 +62,15 @@ input{padding: 5px 0px 0px 0px;
     width: 40%;
     outline: none;}
 
-a{  font-size: 16px;
+a{  text-decoration: none;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin: -20px;
     padding: 16px 8px 11px 8px;
     background-color: var(---cor3);
     color: black;}
+
+a:hover{background-color: var(---cor2);}
 
 @media (max-width: 1366px){
 
