@@ -73,12 +73,19 @@ a{  font-size: 16px;
 
 }
 
-@media (max-width: 711px)
+@media (max-width: 630px)
 
 {
 div{min-width: 100vw;
     min-height: 12vh;}
 h2{padding: 25% 50% 0px 17%;}
+
+}
+
+@media (max-height: 430px)
+{
+
+h2{padding: 13% 50% 0px 17%;}
 }
 
 
