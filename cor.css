@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+
+:root{
+
+    ---cor1:#0C2333;
+    ---cor2:#725746;
+    ---cor3:#DFE3E6;
+
+    ---font1:font-family: 'Open Sans', sans-serif;
+}
+
+body{ margin: 0;
+    display: flex;
+    background-image: url('Pontos/monaco.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+div{flex: 0 0 50%;
+    min-height: 100vh;
+    background-color: var(---cor1);
+    }
+
+/* dentro do box*/
+
+h2{ font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding: 35% 50% 0px 17%;
+    margin: 0px 0px -16px 0px;
+    color: white;}
+
+h1{ 
+    font-size: 60px ;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0px 0px 17%;
+    margin: 0px 0px;
+    color: white;}
+
+p#barra {padding: 0px 0px 0px 6%;
+    margin: -14px 0px 0px 17%;
+    background-color:  white;
+    width: 66%;
+    height: 2px;}
+
+p#barranome{color: var(---cor1);
+
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 16% 0px 25% 17%;
+    background-color: var(---cor3);
+    display: inline-block;
+    padding: 4px 5px 8px 5px;}
+
+input{padding: 5px 0px 0px 0px;
+    font-size: 19px;
+    border: none;
+    margin: -4px;
+    height: 44px;
+    width: 40%;
+    outline: none;}
+
+a{  font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: -20px;
+    padding: 16px 8px 11px 8px;
+    background-color: var(---cor3);
+    color: black;}
+
+@media (max-width: 1366px){
+
+}
+
+@media (max-width: 711px)
+
+{
+div{min-width: 100vw;
+    min-height: 12vh;}
+h2{padding: 25% 50% 0px 17%;}
+}
+
+
