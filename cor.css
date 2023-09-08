@@ -13,10 +13,8 @@
 
 body{ margin: 0;
     display: flex;
-    background-image: url('Pontos/monaco.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;}
+    background: url('Pontos/monaco.jpg') no-repeat fixed ;
+    background-size: cover;}
 
 div{flex: 0 0 50%;
     min-height: 100vh;
