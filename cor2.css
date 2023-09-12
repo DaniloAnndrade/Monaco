@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+:root{
+    ---cor1:#0C2333;
+    ---cor2:#725746;
+    ---cor3:#DFE3E6;
+
+    ---font1:font-family: 'Open Sans', sans-serif;
+}
+
+
+body{background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('Pontos/monaco.jpg');}
+
+/*Cabeçalho*/
+
+
+.header{ margin: 0px 0px -16px 0px;}
+
+.titulo{margin: 30px 0px 10px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 65px;}
+
+a{  
+    font-family: 'Open Sans', sans-serif ;
+    color: var(---cor3);
+    text-decoration: none;}
+
+.linha{height: 2px;
+        margin: 0px 10% 0px 10%;
+        background-color: var(---cor3);}
+
+
+span#icone{ padding: 5px;
+    color: var(---cor3);
+    background-color: var(---cor1);
+    text-align: center;
+    margin: 15px 10% 0px 10%;
+    display: none;
+    cursor:  pointer;}    
+
+menu > ul#pl {
+    list-style-type: none;
+}
+
+
+menu#barra{padding: 0;
+    margin: 0px 10% 0px 10%;
+    background-color: var(---cor1);
+    }
+
+#pl{
+    padding: 5px 10px 5px 10px;
+    gap: 30px;
+    display: flex;
+    list-style: none;}
+
+a:hover{color: var(---cor2);
+    transition: 0.5s;}
+    
+span#icone:hover{
+    transition: 0.5s;
+    color: var(---cor2);}
+
+/*corpo*/
+
+
+main{margin: 0px 10% 0px 10%;
+    height: 77vh;
+
+    background-color: white;}
+
+/*Roda-pé*/
+footer{
+    bottom:0;
+    left:0;
+    right:0;
+    font-weight: bold;
+    color: white;
+    background-color: var(---cor1);
+    position: fixed;}
+p#redesocial {
+    text-align: right;
+    margin: -8px 15px 5px 0px;}
+
+
+
+p#redesocial > a >img:hover{
+    border-radius: 50%;
+    transition: 1s;
+    border: 2px solid #DFE3E6;}
+
+@media (max-width: 680px) {
+
+#pl {margin: 0px;
+    display: none; }
+span#icone { display: block; }
+
+#pl.menu-visivel { 
+    display: block ;
+    text-align: center;
+}
+}
+

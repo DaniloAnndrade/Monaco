@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cor2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Mônaco</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Monaco</h1>
+        <p class="linha"></p>
+        <span class="material-symbols-outlined" onclick="clickMenu()" id='icone'>
+            menu
+            </span >
+        <menu id="barra">
+            <ul id="pl">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Turismo</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+
+        
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptates libero fugit explicabo perferendis, doloremque id beatae vitae quam repellat perspiciatis eaque officiis, cupiditate maxime totam consequatur dolor, similique quas.</p>
+        <a href="index.html" id="logo">volta</a>
+    </main>
+
+    <footer>
+        <p id="redesocial">Projeto criado por Danilo Andrade
+        <a href="#"><img src="Icones/github.png" alt="github"></a>
+        <a href="#"><img src="Icones/linkedin.png" alt="linkedin"></a>
+        </p>
+        </footer>
+        <script>
+            function clickMenu(){
+                var menuList = document.getElementById('pl');
+                 menuList.classList.toggle('menu-visivel');
+            }
+        </script>
+</body>
+</html>
