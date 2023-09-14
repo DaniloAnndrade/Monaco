@@ -5,6 +5,8 @@
     ---cor2:#725746;
     ---cor3:#DFE3E6;
 
+    ---cor: #1a537c;
+
     ---font1:font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,6 +15,10 @@ body{background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-image: url('Pontos/monaco.jpg');}
+
+#inicio{    padding: 5px 10px 0px 10px;
+    margin: -5px 0px -2px 0px;
+    background-color: var(---cor);}
 
 /*Cabeçalho*/
 
