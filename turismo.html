@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cor3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Mônaco</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Mônaco</h1>
+        <p class="linha"></p>
+        <span class="material-symbols-outlined" onclick="clickMenu()" id='icone'>
+            menu
+            </span >
+        <menu id="barra">
+            <ul id="pl">
+                <li id="inicio"><a href="Inicio.html">Inicio</a></li>
+                <li id="turiismo"><a href="turismo.html">Turismo</a></li>
+                <li id="historia"><a href="#">Historia</a></li>
+                <li id="serviços"><a href="#">Serviços</a></li>
+                <li id="contatos"><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+
+        
+    </header>
+    <main>
+        <h2 id="bemvindo">Pontos turísticos</h2>
+        <p id="linhas-text"></p>
+        <article id="box">
+            <aside>
+                <h3><a href="#">Palácio do Príncipe</a></h3>
+                <p> O Palácio Grimaldi é a residência oficial da família real de
+                    Mônaco. Os visitantes podem assistir à cerimônia de troca da guarda e explorar os salões
+                    do palácio durante os meses de verão.</p>
+                    <h4>Palácio do Príncipe de Mônaco, endereço</h3>
+                    <p id="end">98015 Monaco-Ville, Mônaco</p>
+            </aside>
+            <img src="Pontos/prince-palace.jpg" alt="foto">
+        </article>
+        <article id="box">
+            <img src="Pontos/fishe.jpg" alt="foto">
+            <aside>
+                <h3><a href="#">Museu Oceanográfico</a></h3>
+                <p> Fundado pelo príncipe Albert I, este museu é um dos mais
+                    antigos e prestigiosos do mundo dedicados ao estudo do oceano. Abriga uma variedade de
+                    exposições marinhas impressionantes.
+                    </p>
+                    <h4>Museu Oceanográfico do Mónaco</h3>
+                        <p id="end">Av. Saint-Martin, 98000 Monaco, Mônaco</p>
+            </aside>
+            
+        </article>
+        <article id="box">
+            
+            <aside>
+                <h3><a href="#">Restaurantes e lojas de grife </a>
+                </h3>
+                <p>Além desses pontos turísticos, Mônaco também é conhecido por suas praias,
+                    restaurantes de alta qualidade, lojas de grife e vida noturna vibrante. É um destino de
+                    luxo que atrai turistas de todo o mundo devido à sua atmosfera sofisticada e beleza
+                    natural.
+                    </p>
+                </aside>
+                <img src="Loja/street.jpg" alt="foto">
+                </article> 
+
+                <article id="box">
+                    <img src="Pontos/palace-of-justice.jpg" alt="foto">
+                    <aside>
+                        <h3><a href="#">Palais de Justice</a></h3>
+                        <p> O Palácio da Justiça em Mônaco é um edifício judicial
+                            significativo localizado no coração de Monaco-Ville, a cidade antiga de Mônaco. Aqui
+                            estão alguns detalhes importantes sobre o Palácio da Justiça
+                            </p>
+                            <h4>Palácio da Justiça, endereço</h3>
+                                <p id="end">Palais de Justice, 5 Rue Colonel Bellando de Castro, 98000 Monaco</p>
+                    </aside>
+                    
+                </article>
+
+
+ <article id="box">
+            
+            <aside>
+                <h3><a href="#">Restaurantes e lojas de grife </a>
+                </h3>
+                <p>A Salle Empire é um dos locais mais prestigiosos e icônicos do famoso Cassino de
+                    Monte-Carlo, localizado em Mônaco. A Salle Empire é um salão de festas e banquetes
+                    de luxo dentro do cassino e é conhecido por sua decoração opulenta e ambiente
+                    elegante.
+                    </p>
+                </aside>
+                <img src="Pontos/Salle Empire.jpg" alt="foto">
+                </article> 
+
+                <strong>
+                    <p id="apre">Mônaco, onde a aventura começa e a hospitalidade
+                        nunca termina!</p>
+                </strong>         
+    </main>
+
+    <footer>
+        <p id="redesocial">Projeto criado por Danilo Andrade
+        <a href="#"><img src="Icones/github.png" alt="github"></a>
+        <a href="#"><img src="Icones/linkedin.png" alt="linkedin"></a>
+        </p>
+        </footer>
+        <script>
+            function clickMenu(){
+                var menuList = document.getElementById('pl');
+                 menuList.classList.toggle('menu-visivel');
+            }
+        </script>
+</body>
+</html>
+
+(Palais de Justice

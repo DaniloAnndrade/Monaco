@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+:root{
+    ---cor1:#0C2333;
+    ---cor2:#725746;
+    ---cor3:#DFE3E6;
+
+    ---cor: #1a537c;
+
+    ---font1:font-family: 'Open Sans', sans-serif;
+}
+
+
+body{background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('Pontos/monaco.jpg');}
+
+#turiismo{    padding: 5px 10px 0px 10px;
+    margin: -5px 0px -2px 0px;
+    background-color: var(---cor);}
+
+/*Cabeçalho*/
+
+
+.header{ margin: 0px 0px -16px 0px;}
+
+.titulo{margin: 30px 0px 10px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 65px;}
+
+a{  
+    font-family: 'Open Sans', sans-serif ;
+    color: var(---cor3);
+    text-decoration: none;}
+
+.linha{height: 2px;
+        margin: 0px 10% 0px 10%;
+        background-color: var(---cor3);}
+
+
+span#icone{ padding: 5px;
+    color: var(---cor3);
+    background-color: var(---cor1);
+    text-align: center;
+    margin: 15px 10% 0px 10%;
+    display: none;
+    cursor:  pointer;}    
+
+menu > ul#pl {
+    list-style-type: none;
+}
+
+
+menu#barra{padding: 0;
+    margin: 0px 10% 0px 10%;
+    background-color: var(---cor1);
+    }
+
+#pl{
+    padding: 5px 10px 5px 10px;
+    gap: 30px;
+    display: flex;
+    list-style: none;}
+
+a:hover{color: var(---cor2);
+    transition: 0.5s;}
+    
+span#icone:hover{
+    transition: 0.5s;
+    color: var(---cor2);}
+
+/*corpo*/
+
+aside > h3 >a{color: var(---cor1);}
+
+main >strong >  p#apre{
+    padding-block: 6px ;
+    background-color: #DFE3E6;
+    margin-bottom: 15px;
+
+}
+main{margin: 16px 10% -44px 10%;
+    padding-bottom: 20px;
+    height: auto;
+
+    background-color: white;}
+
+h4{ font-size: 15px;
+    color: var(---cor1);
+    text-align: right;
+    margin: 0px;} 
+
+#end{text-align: right;
+    font-size: 15px;
+    margin: 0px;}
+
+
+#bemvindo{margin-bottom: -1%;
+    margin-left: 8%;
+    padding-top: 7%;
+    font-family: 'Open Sans', sans-serif ;}
+
+#apre{margin: 2px 5% 5px 5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif ;}
+
+#linhas-text{
+    margin-inline: 4%;
+    border-radius: 10px;
+    width: 70vw;
+    height: 2px;
+    background-color: #725746;}
+
+#box{border-bottom: 1px solid #725746;
+    display: flex;
+    margin: 0px 5% 40px 5%;}
+
+#box aside {margin: 0px 3% 0px 3%;}
+
+#box img{
+    margin: 0px 5% 40px 5%;
+    width: 250px;}
+
+
+
+/*Roda-pé*/
+footer{
+    bottom:0;
+    left:0;
+    right:0;
+    font-weight: bold;
+    color: white;
+    background-color: var(---cor1);
+    position: fixed;}
+p#redesocial {
+    text-align: right;
+    margin: -8px 15px 5px 0px;}
+
+
+
+p#redesocial > a >img:hover{
+    border-radius: 50%;
+    transition: 1s;
+    border: 2px solid #DFE3E6;}
+
+@media (max-width: 680px) {
+
+#box{
+    display: block;
+    margin: 0px 5% 70px 5%;}
+
+#box aside h3{margin: 0px 0px 0px 0px;}
+
+#box img {
+    margin: 0px 0% 40px 0%;
+    width: 250px;}
+    
+
+#pl {margin: 0px;
+    display: none; }
+span#icone { display: block; }
+
+#pl.menu-visivel { 
+    display: block ;
+    text-align: center;}
+}
+
