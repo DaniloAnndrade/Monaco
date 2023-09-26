@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cor3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+    #historia{    padding: 5px 10px 0px 10px;
+        margin: -5px 0px -2px 0px;
+        background-color: var(---cor);}</style>
+    <title>Mônaco</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Mônaco</h1>
+        <p class="linha"></p>
+        <span class="material-symbols-outlined" onclick="clickMenu()" id='icone'>
+            menu
+            </span >
+        <menu id="barra">
+            <ul id="pl">
+                <li id="inicio"><a href="Inicio.html">Inicio</a></li>
+                <li id="turiismo"><a href="turismo.html">Turismo</a></li>
+                <li id="historia"><a href="historia.html">Historia</a></li>
+                <li id="serviços"><a href="#">Serviços</a></li>
+                <li id="contatos"><a href="#">Contatos</a></li>
+            </ul>
+        </menu>
+
+        
+    </header>
+    <main>
+        <h2 id="bemvindo1">Historia de Mônaco</h2>
+        <p id="linha"></p>
+        <figure id="hisimg">
+        </figure>  
+        <p id="texth">
+            Mônaco é um pequeno principado situado na costa sul da França, no Mar Mediterrâneo. É famoso por sua beleza natural deslumbrante, sua história rica e sua reputação como um paraíso fiscal.
+        </p>
+        <article id="boxh">
+            <aside>
+                <p >  Mônaco foi fundada no século XIII por uma família genovesa chamada
+                    Grimaldi. A história da família Grimaldi em Mônaco é marcada por intrigas, lutas de poder e
+                    alianças estratégicas ao longo dos séculos.
+                    </p>
+                    <p >  Durante sua história, Mônaco foi objeto de controle estrangeiro
+                        em várias ocasiões. O principado esteve sob o domínio da França em diferentes momentos
+                        e também esteve sob o controle da Espanha e da Sardenha.
+                        </p>
+            </aside>
+            <img src="Pontos/prince-palace.jpg" alt="foto">
+        </article>
+            <p id="texth">
+                Mônaco finalmente conquistou sua independência do Reino da Sardenha
+em 1861, graças ao Tratado de Péronne. No entanto, a soberania de Mônaco era limitada
+por um acordo com a França, conhecido como o Tratado de 1918, que estabeleceu a
+proteção francesa sobre Mônaco.
+
+            </p>
+            <article id="boxh">
+                <img src="Pontos/palace-of-justice.jpg" alt="foto">
+                <aside>
+                    <p >   O príncipe Rainier III, que reinou de 1949 a 2005,
+                        desempenhou um papel fundamental na transformação de Mônaco em um destino turístico
+                        de renome. Ele promoveu a construção de hotéis de luxo, o desenvolvimento de cassinos e
+                        a criação de eventos esportivos, como o Grande Prêmio de Mônaco de Fórmula 1.
+                                            
+                        </p>
+            </aside>
+               
+            
+    </main>
+
+    <footer>
+        <p id="redesocial">Projeto criado por Danilo Andrade
+        <a href="#"><img src="Icones/github.png" alt="github"></a>
+        <a href="#"><img src="Icones/linkedin.png" alt="linkedin"></a>
+        </p>
+        </footer>
+        <script>
+            function clickMenu(){
+                var menuList = document.getElementById('pl');
+                 menuList.classList.toggle('menu-visivel');
+            }
+        </script>
+</body>
+</html>

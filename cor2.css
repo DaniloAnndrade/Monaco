@@ -23,7 +23,7 @@ body{background-repeat: no-repeat;
 /*Cabeçalho*/
 
 
-.header{ margin: 0px 0px -16px 0px;}
+.header{ margin: 120px 0px -16px 0px;}
 
 .titulo{margin: 30px 0px 10px 0px;
     text-align: center;
@@ -94,7 +94,13 @@ main{margin: 16px 10% -44px 10%;
     text-align: center;
     font-family: 'Open Sans', sans-serif ;}
 
-#apre{margin: 2px 5% 5px 5%;
+#apre{font-size: 18px;
+    padding-bottom: 5px;
+    text-align: justify;
+    margin: 10px 5% 0px 8%;
+    font-family: 'Open Sans', sans-serif ;
+    
+    margin: 2px 5% 5px 5%;
     text-align: center;
     font-family: 'Open Sans', sans-serif ;}
 
@@ -109,11 +115,18 @@ main{margin: 16px 10% -44px 10%;
     display: flex;
     margin: 0px 5% 40px 5%;}
 
-#box aside h3{margin: 0px 0px 0px 0px;}
+#box aside p{font-size: 18px;
+    text-indent:20px;
+    padding-bottom: 5px;
+    text-align: justify;
+    margin: 10px 5% 0px 8%;
+    font-family: 'Open Sans', sans-serif ;}
 
-#box img{
-    margin: 0px 5% 40px 5%;
-    width: 250px;}
+#box img{width: 358px;}
+
+#box aside h3{
+    text-align: center;
+    }
 
 
 
