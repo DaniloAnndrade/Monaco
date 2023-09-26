@@ -73,6 +73,8 @@ span#icone:hover{
 
 /*PAGINA HISTORIA*/
 
+
+
 #boxh{display: flex;
     margin: 2% 5% 0px 5%;}
 
@@ -192,7 +194,7 @@ p#redesocial > a >img:hover{
 
 @media (max-width: 680px) {
 
-    
+#barra ul#pl a{padding-inline:30% ;}    
 
 #texth{text-align: justify;}
 
@@ -214,9 +216,7 @@ p#redesocial > a >img:hover{
 
 #boxh aside h3{margin: 0px 0px 0px 0px;}
 
-#boxh img {
-    
-    width: 270px;}
+#boxh img { width: 270px;}
 
 #pl {margin: 0px;
     display: none; }
