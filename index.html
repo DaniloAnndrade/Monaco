@@ -16,9 +16,14 @@
         <p id="barra"></p>
         <section>
            <p id="barranome">Nome</p>
-            <input type="text" id="nome" placeholder="  ....."><a href="Inicio.html">Enter</a> 
+            <input type="text" id="nome" placeholder="  ....."><a href="Inicio.html" onclick="salvarNome()">Enter</a> 
         </section>
     </div>
-    
+    <script>
+        function salvarNome() {
+            var nomeDigitado = document.getElementById("nome").value;
+            localStorage.setItem("nomeUsuario", nomeDigitado);
+        }
+    </script>
 </body>
 </html>

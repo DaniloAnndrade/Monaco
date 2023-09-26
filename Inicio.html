@@ -28,13 +28,17 @@
             </ul>
         </menu>
 
-        
     </header>
     <main>
-        <h2 id="bemvindo">Seja Bem-vindo Nome.</h2>
+        <h2 id="bemvindo">Seja Bem-vindo.</h2>
         <p id="apre"> Somos o seu guia turístico e provedor de informações de hotéis e serviços, estamos dedicados a tornar a sua visita o mais memorável e agradável possível.</p>
         <p id="linhas-text"></p>
-        
+        <script>
+            var nomeSalvo = localStorage.getItem("nomeUsuario");
+            if (nomeSalvo) {
+                document.getElementById("bemvindo").textContent = "Seja Bem-vindo " + nomeSalvo + "!";
+            }
+        </script>
 
         <article id="box">
             <img src="Pontos/monaco.jpg" alt="foto">
