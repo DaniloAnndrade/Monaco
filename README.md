@@ -4,7 +4,7 @@ Projeto de um "Guia Turistico."
 https://daniloanndrade.github.io/Monaco/
 
 
-# Créditos de imagens.
+Créditos de imagens.
 
 
 Imagem de Hans por Pixabay - Palace Of Justice -IMG
