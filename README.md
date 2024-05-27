@@ -1,5 +1,5 @@
-# Monaco
-Projeto de um "Guia Turistico."
+# Monaco Front-End
+Projeto de um "Guia Turistico.", Front end WEB.
 
 https://daniloanndrade.github.io/Monaco/
 
